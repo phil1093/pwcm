@@ -1,4 +1,4 @@
-# pwcm
+#pwcm
 import openpyxl #import modules
 import os
 
@@ -10,11 +10,11 @@ sheet1 = wb.get_sheet_by_name('Duplicates')
 sheet2 = wb.get_sheet_by_name('Need')
 
 
-# W35 is the furthest cell in sheet1 Duplicates
+#W35 is the furthest cell in sheet1 Duplicates
 #Collumn 1 is Countries
-# column 2 is number on sticker
-# 35 rows total,
-# 4th column starts country at 0,22,32,52,72,etc..
+#column 2 is number on sticker
+#35 rows total,
+#4th column starts country at 0,22,32,52,72,etc..
 #23rd column is final column (W) ending 21,31,52,71 etc..
 
 #Stadium values
