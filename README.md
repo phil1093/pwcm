@@ -19,11 +19,10 @@ sheet2 = wb.get_sheet_by_name('Need')
 
 #Stadium values
 #for i in range(1,2):
-#	for j in range(1,24):
-#		print(i, j, sheet1.cell(row=i, column=j).value)
+#for j in range(1,24):
+#print(i, j, sheet1.cell(row=i, column=j).value)
 
 #get card number
-
 
 #loop over for number of cards
 while True:
